@@ -1,0 +1,33 @@
+.contact-us-section {
+    background-color: #f3f7ff;
+    padding: 60px 20px;
+}
+
+.contact-us-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(124, 4, 237);
+}
+
+.contact-us-section p.lead {
+    font-size: 1.1rem;
+    color: #374151;
+}
+
+.contact-us-section form .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.contact-us-section form .btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.contact-us-section form .btn:hover {
+    background-color: #c0135f;
+    color: white;
+    transform: scale(1.05);
+}

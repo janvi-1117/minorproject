@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons8-guide-dog-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f584623432.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Sign Up | VetEase</title>
+    <style>
+        #footer {
+            margin-top: 200px;
+        }
+
+        @media only screen and (max-width: 600px) and (min-width: 200px) {
+            #footer {
+                margin-top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div id="navbar"></div>
+
+    <div class="containerII">
+
+        <div class="innerContainer">
+            <div class="box1">
+                <h1>Create a Pet Parent account</h1>
+                <form action="">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Enter name" id="name" required>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter email" id="email" required>
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter password" id="password" required>
+                    <label for="">Contact No.</label>
+                    <input type="number" placeholder="Enter contact no." id="contact" required>
+                    <label for="">Pet Name</label>
+                    <input type="text" placeholder="Enter pet name" id="petName" required>
+                    <label for="">Pet Type</label>
+                    <select name="" id="petType">
+                        <option value="select pet type">Select pet type</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select>
+                    <label for="">Pet Age</label>
+                    <input type="number" placeholder="Enter pet age" id="petAge">
+                    <input type="submit" id="submit">
+                    <p class="link">Already have an account? <a href="./login.html">Login</a></p>
+                </form>
+            </div>
+            <div class="box2">
+                <img src="./assets/injured.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer start -->
+    <div id="footer"></div>
+</body>
+
+</html>
+
+<script src="./scripts/signup.js" type="module"></script>
